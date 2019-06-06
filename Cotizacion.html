@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<style>
+		#principal{
+			width: 100%;
+			height: 1500px;
+			border: 1px solid #000;
+			margin: auto;
+			background: #53A7B4;
+		}
+
+		header{
+			width: 100%;
+			height: 135px;
+			background: #5D6163;
+			float: center;
+		}
+
+		#logo{
+			width: 18%;
+			height: 100px;
+			border: 0px solid #000;
+			float: left;
+		}
+
+		#header{
+		margin: auto;
+		width: 1300px;
+		font-family: arial;
+	}	
+		footer{
+			width: 100%;
+			height: 60px;
+			text-align: center;
+			border: 1px solid #000;
+			background-color: #5D6163;
+			margin:250px 0px 0px 0px;
+		}
+
+		#footer p{
+			width: 500px; 
+		}
+
+		/*Menu*/
+	ul, ol{
+		list-style: none;
+	}
+
+	.nav li a{
+		background-color: #5D6163;
+		color: #fff;
+		text-decoration: none;
+		padding: 20px 15px;
+		display: block; 
+		float: center auto;
+	}
+
+	.nav li a:hover{
+		background-color:red;
+	}
+
+	.nav > li{
+		float: left;
+	}
+
+	.nav li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px; 
+	}
+
+	.nav li:hover > ul{
+		display: block;
+	}
+
+	.nav li ul li{
+		position: relative;
+	}
+
+	.nav li ul li ul{
+		right: -140px;
+		top: 0px;
+	}
+/**/
+		.slides{
+	width: 100%;			
+		}
+
+		.slides img{
+			width: 100%;
+		}
+
+		.main{
+			width: 90%;
+			max-width: 1000px;
+			margin: 20px auto;
+			overflow: hidden;
+
+		}
+		
+		.buton{
+			text-decoration: none;
+			border: 1px solid #006699;
+			padding: 10px 20px 10px 20px;
+			margin: 10px;
+		}
+
+		.buton1:hover{
+			background: #006699;
+			color: #fff;
+			transition: background 1s, color 1s;
+		}
+
+
+.no-padding{
+
+	width: 1000px;
+	height: 100px;
+	text-decoration: none;
+	border: 0px solid #fff;
+	float: center;
+	margin: 10px 10px 10px 1
+
+	</style>
+	<body>
+		<div id="principal">
+			<header>
+				<div id="logo">
+					<img src="img/auto.jpg" width="200" height="135">
+				</div>	
+					<nav id="menul">
+						<img src="img/PNG/phone-square.png" width="30" height="30"><a id="numero">(311) 180-05-60</a>
+						<img src="img/PNG/location2.png" width="30" height="30"><a id="ubicacion">Av.Insurgentes # 253 Col.Rodeo</a>
+						<img src="img/PNG/facebook-official.png" width="30" height="30" float="right">
+						<img src="img/PNG/instagram-with-circle.png" width="50" height="30" float="right">
+						<img src="img/PNG/twitter-with-circle.png" width="30" height="30" float="right">
+					</nav>
+				<div id="header">
+		<ul class="nav">
+			<li><a href="index.html"><img src="img/PNG/home3.png" width="21px" height="21px">Inicio</a></li>
+			<li><a href="AutosUsados.html"><img src="img/PNG/automobile.png" width="21px" height="21px">AutosSeminuevos</a>
+				<ul>
+					<li><a href="#">Marca de Autos</a>
+						<ul>
+							<li><a href="SubmenucatalogoNissan.html">Nissan</a></li>
+							<li><a href="SubmenucatalogoToyota.html">Toyota</a></li>
+							<li><a href="SubmenucatalogoChevrolet.html">Chevrolet</a></li>
+							<li><a href="SubmenucatalogoHyundai.html">Hyundai</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Tipo de Autos</a>
+						<ul>
+							<li><a href="SubmenucatalogoSuv.html">Suv</a></li>
+							<li><a href="SubmenucatalogoFamiliar.html">Familiar</a></li>
+							<li><a href="SubmenucatalogoCamioneta.html">Camioneta</a></li>
+							<li><a href="SubmenucatalogoComercial.html">Comercial</a></li>
+							<li><a href="SubmenucatalogoDeportivo.html">Deportivo</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="Cotizacion.html"><img src="img/PNG/local_atm.png" width="21px" height="21px">Cotizacion</a></li>
+			<li><a href="promociones.html"><img src="img/PNG/coin-dollar.png" width="21px" height="21px">Promociones</a></li>
+			<li><a href="Financiamiento.html"><img src="img/PNG/coins.png" width="21px" height="21px">Financiamiento</a></li>
+			<li><a href="Servicio.html"><img src="img/PNG/tools-2.png" width="21px" height="21px">Servicios</a></li>
+			<li><a href="Contactos.html"><img src="img/PNG/contacts.png" width="21px" height="21px">Contactos</a></li>
+			<li><a href="Quienessomos.html"><img src="img/PNG/clipboard.png" width="21px" height="21px">Nosotros</a></li>
+		</ul>
+	</div>
+			</header>
+		<div class="main">
+			<div class="slides">
+				<img src="img/banner-cotizar.jpg" alt="">
+			</div>
+		</div>
+
+
+
+<fieldset class="no-padding">
+			<div class="col-xs-12 no-right-space">
+				<h3 class="panel-title color-green margin-top-10 margin-bottom-5 pull-left "><strong>cotizacion rapida</strong></h3>
+				<span class="pull-right mondatorytext_home lg-padding-right-15 sm-padding-right-15 xs-padding-right-15 margin-top-20"><span class=""></span>
+		 		<span class="asterisksymbol_1">*</span>Campos Obligatorios</span></div>
+				<div class="col-xs-12 col-sm-12 col-md-11 col-lg-11 no-right-space">
+			<section class="col-xs-12 col-sm-6 margin-top-5 col-md-fv no-left-space">
+				<label class="input">												    <span class="req ">
+					<i class="icon-append fa fa-user"></i>
+					<input type="text" class="required" tabindex="1" size="17" maxlength="30" value="" onkeypress="return validalphabet(event);" id="FirstName" name="firstName" placeholder="Nombre *">
+					</span>
+					<span class="error"></span>
+				</label>
+			</section>
+				<section class="col-xs-12 col-sm-6 margin-top-5 col-md-fv no-left-space">
+			<label class="input">
+				<span class="req ">
+					<i class="icon-append fa fa-user"></i>
+					<input type="text" class="required" tabindex="2" size="17" maxlength="30" value="" onkeypress="return validalphabet(event);" id="LastName" name="lastName" placeholder="Apellido *">
+				</span>
+				<span class="error"></span>
+			</label>
+				</section>
+					<section class="col-xs-12 col-sm-6 margin-top-5 col-md-fv no-left-space">
+				<label class="input">									
+					<span class="req ">
+						<i class="icon-append fa fa-phone"></i>
+						<input type="tel" tabindex="3" maxlength="13" size="4" value="" id="OffPhone" class="phone1 required validphone" name="dayPhone1" placeholder="Teléfono *">
+					</span>
+						<span class="error"></span>
+						<span class="error"></span>
+				</label>
+					</section>
+						<section class="col-xs-12 col-sm-6 margin-top-5 col-md-fv no-left-space">		
+					<label class="input">								
+						<span class="req "><i class="icon-append fa fa-envelope"></i>
+						<input type="text" tabindex="4" maxlength="50" size="17" value="" id="Email" class="textfieldWidth required validemail" name="email" placeholder="E-Mail *">
+						</span>
+						<span class="error"></span>
+						<span class="error"></span>
+					</label>
+						</section>
+						<input type="hidden" readonly="readonly" size="12" value="Nissan" id="Make" name="make">
+		<section class="col-xs-12 col-sm-6 margin-top-5 col-md-fv no-left-space">
+			<label class="select nis-holder">
+				<span class="req ">
+						<span class="customselect fa fa-angle-down font-md service-block-u"></span>
+						<div class="fakedropdown"></div>
+					<select class="input-sm required" name="Model" tabindex="7">
+						<option value="">Selecciona un Modelo *</option>
+						<option value="Toyota Tacoma SR5 (V6)">Toyota Tacoma SR5 (V6)</option>
+						<option value="Toyota RAV4 LE ">Toyota RAV4 LE </option>
+						<option value="TOYOTA PROACE VAN">TOYOTA PROACE VAN</option>
+						<option value="Toyota Celica Gt 2002">Toyota Celica Gt 2002</option>
+						<option value="TOYOTA AURIS FAMILIAR 2015">TOYOTA AURIS FAMILIAR 2015</option>
+						<option value="Nissan's 2017 Armada shows the big SUV is back">Nissan's 2017 Armada shows the big SUV is back</option>
+						<option value="nissan nv400">nissan nv400</option>
+						<option value="nissan 350z ">nissan 350z </option>
+						<option value="NISSAN FRONTIER 4X4">NISSAN FRONTIER 4X4</option>
+						<option value="nissan evalia">nissan evalia</option>
+						<option value="Chevrolet S 10 LT">Chevrolet S 10 LT</option>
+						<option value="Chevy Trax small SUV">Chevy Trax small SUV</option>
+						<option value="camaro 2009">camaro 2009</option>
+						<option value="chevrolet passenger van">chevrolet passenger van</option>
+						<option value="Chevrolet Spin">Chevrolet Spin</option>
+						<option value="hyundai pick up">hyundai pick up</option>
+						<option value="hyundai h1">hyundai h1</option>
+						<option value="Hyundai h350">Hyundai h350</option>
+						<option value="hyundai genesis coupe">hyundai genesis coupe</option>
+						<option value="Hyndai santa fe">Hyndai santa fe</option>
+					</select>
+							<i></i>
+				</span>
+							<span class="error"></span>
+			</label>
+		</section>	
+			<section class="col-xs-12 col-sm-6 col-md-6 margin-top-10 no-left-space">								
+			<label class="checkbox checkbox-line-height-space checkboxnissan  privacy-text-color">
+				<input type="checkbox" id="PrivacyNotice" value="PrivacyNotice" tabindex="11" name="PrivacyNotice"><i></i>
+				<span class="colorBlack">He leído y acepto el <a class="privacy" target="_blank" href="/politica-de-privacidad-es-mx.htm">  
+										 Aviso de Privacidad</a></span>
+			</label>								
+			</section>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 md-no-left-space lg-no-left-space md-no-right-space">
+				<label class="input margin-top-10">
+					<button class="btn-u btn-block margin-bottom-20 btn-nis" type="submit" tabindex="12">Enviar</button>
+				</label>
+				</div>
+</fieldset>
+
+
+
+
+			<footer>
+				<p>
+					(c) Todos los derechos reservados -AN 2019   <br> Diseñado por <a href="alonsin2001_04@hotmail.com">mi</a>
+				</p>
+			</footer>
+		</div>	
+
+		<script src="htrp://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.slides.js"></script>
+		<script>
+			$(function(){
+			$(".slides").slides.js({
+			});
+		});
+
+		</script>
+	</body>
+</html>

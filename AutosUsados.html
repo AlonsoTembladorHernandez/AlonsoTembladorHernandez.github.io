@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<style>
+		#principal{
+			width: 100%;
+			height: 7385px; 
+			border: 1px solid #000;
+			margin: auto;
+			background: #53A7B4;
+		}
+
+		header{
+			width: 100%;
+			height: 135px;
+			background: #5D6163;
+			float: center;
+		}
+
+		#logo{
+			width: 18%;
+			height: 100px;
+			border: 0px solid #000;
+			float: left;
+		}
+
+		#header{
+		margin: auto;
+		width: 1300px;
+		font-family: arial;
+	}
+ /*Menu*/
+	ul, ol{
+		list-style: none;
+	}
+
+	.nav li a{
+		background-color: #5D6163;
+		color: #fff;
+		text-decoration: none;
+		padding: 20px 15px;
+		display: block; 
+		float: center auto;
+	}
+
+	.nav li a:hover{
+		background-color:red;
+	}
+
+	.nav > li{
+		float: left;
+	}
+
+	.nav li ul{
+		display: none;
+		position: absolute;
+		min-width: 140px; 
+	}
+
+	.nav li:hover > ul{
+		display: block;
+	}
+
+	.nav li ul li{
+		position: relative;
+	}
+
+	.nav li ul li ul{
+		right: -140px;
+		top: 0px;
+	}
+/**/
+		#slide{
+			text-decoration: none;
+		}
+		#categorias{
+			width: 100%;
+			height: center; overflow: hidden;
+			border: 0px solid #000;
+			margin-top: 20px;
+		}
+
+		.imagen1{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion1{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen2{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion2{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen3{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion3{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen4{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion4{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen5{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion5{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen6{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion6{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen7{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion7{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen8{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion8{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen9{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion9{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen10{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion10{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen11{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion11{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen12{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion12{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen13{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion13{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen14{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion14{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen15{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion15{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen16{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion16{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 0px 0px 50px;
+			color: #000;
+		}
+
+		.imagen17{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion17{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen18{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion18{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 50px;
+			color: #000;
+		}
+
+		.imagen19{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: left;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion19{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: right;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 0px 0px;
+			color: #000;
+		}
+
+		.imagen20{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 0px solid #000;
+			float: right;
+			padding: 10px;
+			text-align: center;
+			margin: 150px 0px 0px 0px;
+		}
+
+		.descripcion20{
+			width: 600px;
+			height: auto; overflow: hidden;
+			border: 1px solid #000;
+			float: left;
+			padding: 5px;
+			text-align: center;
+			margin: 150px 50px 50px 50px;
+			color: #000;
+		}
+		footer{
+			border: 1px solid #5D6163;
+			width: 100%;
+			height: auto;
+			float: center;
+			text-align: center;
+			background-color: #5D6163;
+			color: #fff;
+		}
+
+		h3{
+			color: #fff;
+			margin: 10px;
+			margin-left: 500px;
+			}
+
+			a{
+				text-decoration: none;
+				color: #000
+			}
+
+	</style>
+	<body>
+		<div id="principal">
+			<header>
+				<div id="logo">
+					<img src="img/auto.jpg	" width="200" height="135">
+				</div>	
+			<div>
+					<nav id="menul">
+						<img src="img/PNG/phone-square.png" width="30" height="30"><a id="numero">(311) 180-05-60</a>
+						<img src="img/PNG/location2.png" width="30" height="30"><a id="ubicacion">Av.Insurgentes # 253 Col.Rodeo</a>
+						<img src="img/PNG/facebook-official.png" width="30" height="30" float="right">
+						<img src="img/PNG/instagram-with-circle.png" width="50" height="30" float="right">
+						<img src="img/PNG/twitter-with-circle.png" width="30" height="30" float="right">
+					</nav>
+	<div id="header">
+		<ul class="nav">
+			<li><a href="index.html"><img src="img/PNG/home3.png" width="21px" height="21px">Inicio</a></li>
+			<li><a href="AutosUsados.html"><img src="img/PNG/automobile.png" width="21px" height="21px">AutosSeminuevos</a>
+				<ul>
+					<li><a href="#">Marca de Autos</a>
+						<ul>
+							<li><a href="SubmenucatalogoNissan.html">Nissan</a></li>
+							<li><a href="SubmenucatalogoToyota.html">Toyota</a></li>
+							<li><a href="SubmenucatalogoChevrolet.html">Chevrolet</a></li>
+							<li><a href="SubmenucatalogoHyundai.html">Hyundai</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Tipo de Autos</a>
+						<ul>
+							<li><a href="SubmenucatalogoSuv.html">Suv</a></li>
+							<li><a href="SubmenucatalogoFamiliar.html">Familiar</a></li>
+							<li><a href="SubmenucatalogoCamioneta.html">Camioneta</a></li>
+							<li><a href="SubmenucatalogoComercial.html">Comercial</a></li>
+							<li><a href="SubmenucatalogoDeportivo.html">Deportivo</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="Cotizacion.html"><img src="img/PNG/local_atm.png" width="21px" height="21px">Cotizacion</a></li>
+			<li><a href="promociones.html"><img src="img/PNG/coin-dollar.png" width="21px" height="21px">Promociones</a></li>
+			<li><a href="Financiamiento.html"><img src="img/PNG/coins.png" width="21px" height="21px">Financiamiento</a></li>
+			<li><a href="Servicio.html"><img src="img/PNG/tools-2.png" width="21px" height="21px">Servicios</a></li>
+			<li><a href="Contactos.html"><img src="img/PNG/contacts.png" width="21px" height="21px">Contactos</a></li>
+			<li><a href="Nosotros.html"><img src="img/PNG/clipboard.png" width="21px" height="21px">Nosotros</a></li>
+		</ul>
+	</div>
+      <div>
+			<section id="slide">
+			</section>
+			<section id="categorias">
+				<section class="imagen1">
+					<a href="Descripcioncarro1.html"><img src="img/Toyota/T-imagen1.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion1">
+					<a href="Descripcioncarro1.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen2">
+					<a href="Descripcioncarro2.html"><img src="img/Toyota/T-imagen2.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion2">
+					<a href="Descripcioncarro2.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen3">
+					<a href="Descripcioncarro3.html"><img src="img/Toyota/T-imagen3.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion3">
+					<a href="Descripcioncarro3.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen4">
+					<a href="Descripcioncarro4.html"><img src="img/Toyota/T-imagen4.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion4">
+					<a href="Descripcioncarro4.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen5">
+					<a href="Descripcioncarro5.html"><img src="img/Toyota/T-imagen5.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion5">
+					<a href="Descripcioncarro5.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+
+
+				<section class="imagen6">
+					<a href="Descripcioncarro6.html"><img src="img/Nissan/nimagen1.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion6">
+					<a href="Descripcioncarro6.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen7">
+					<a href="Descripcioncarro7.html"><img src="img/Nissan/nimagen2.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion7">
+					<a href="Descripcioncarro7.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen8">
+					<a href="Descripcioncarro8.html"><img src="img/Nissan/nimagen3.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion8">
+					<a href="Descripcioncarro8.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen9">
+					<a href="Descripcioncarro9.html"><img src="img/Nissan/nimagen4.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion9">
+					<a href="Descripcioncarro9.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen10">
+					<a href="Descripcioncarro10.html"><img src="img/Nissan/nimagen5.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion10">
+					<a href="Descripcioncarro10.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+
+				<section class="imagen11">
+					<a href="Descripcioncarro11.html"><img src="img/Hyundai/H-imagen1.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion11">
+					<a href="Descripcioncarro11.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen12">
+					<a href="Descripcioncarro12.html"><img src="img/Hyundai/H-imagen2.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion12">
+					<a href="Descripcioncarro12.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen13">
+					<a href="Descripcioncarro13.html"><img src="img/Hyundai/H-imagen3.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion13">
+					<a href="Descripcioncarro13.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen14">
+					<a href="Descripcioncarro14.html"><img src="img/Hyundai/H-imagen4.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion14">
+					<a href="Descripcioncarro14.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen15">
+					<a href="Descripcioncarro15.html"><img src="img/Hyundai/H-imagen5.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion15">
+					<a href="Descripcioncarro15.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+
+
+				<section class="imagen16">
+					<a href="Descripcioncarro16.html"><img src="img/Chevrolet/C-imagen1.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion16">
+					<a href="Descripcioncarro16.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen17">
+					<a href="Descripcioncarro17.html"><img src="img/Chevrolet/C-imagen2.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion17">
+					<a href="Descripcioncarro17.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen18">
+					<a href="Descripcioncarro18.html"><img src="img/Chevrolet/C-imagen3.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion18">
+					<a href="Descripcioncarro18.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen19">
+					<a href="Descripcioncarro19.html"><img src="img/Chevrolet/C-imagen4.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion19">
+					<a href="Descripcioncarro19.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+				<section class="imagen20">
+					<a href="Descripcioncarro20.html"><img src="img/Chevrolet/C-imagen5.jpg" width="300" height="200"></a>
+				</section>
+				<section class="descripcion20">
+					<a href="Descripcioncarro20.html"><p>La industria automotriz es un conjunto de compañías y organizaciones relacionadas en las áreas de diseño, desarrollo, manufactura, marketing, y ventas de automóviles.1​ Es uno de los sectores económicos más importantes en el mundo por ingresos. La industria automotriz no incluye a las compañías dedicadas al mantenimiento de automóviles que ya han sido entregados a un cliente, es decir, talleres mecánicos y gasolineras.
+
+El término automotriz es derivado del término griego auto (por sí mismo), y del latín motriz (motor) para representar a cualquier vehículo automotor. Este término fue propuesto por el miembro de SAE, Elmer Sperry.</p></a>
+				</section>
+			</section> 
+			<footer>
+				<p>
+					(c) Todos los derechos reservados -AN 2019   <br> Diseñado por <a href="alonsin2001_04@hotmail.com">mi</a>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
