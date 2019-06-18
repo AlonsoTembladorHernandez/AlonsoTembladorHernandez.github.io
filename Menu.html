@@ -6,7 +6,7 @@
 	<style>
 		#principal{
 			width: 100%;
-			height: 1250px;
+			height: 950px;
 			border: 1px solid #000;
 			margin: auto;
 			background: #53A7B4;
@@ -33,11 +33,11 @@
 	}	
 		footer{
 			width: 100%;
-			height: 100px;
+			height: 60px;
 			text-align: center;
 			border: 1px solid #000;
 			background-color: #5D6163;
-			margin:100px 0px 0px 0px;
+			margin:150px 0px 0px 0px;
 		}
 
 		#footer p{
@@ -86,11 +86,95 @@
 	}
 /**/
 		.slides{
-	width: 100%;			
+	width: 95%;		
+	margin: auto;	
+	overflow: hidden;
 		}
 
 		.slides img{
 			width: 100%;
+			height: 550px;
+		}
+
+		.slides ul{
+			padding: 0;
+			display: flex;
+			width: 2000%;
+			animation: cambio 30s infinite;
+		}
+
+		.slides li{
+			width: 100%;
+			list-style: none;
+		}
+
+
+		@keyframes cambio{
+			0%{ margin-left: 0%; }
+			2.5%{ margin-left: 0%; }
+
+			5%{margin-left: -100%;}
+			7.5%{margin-left: -100%;}
+
+			10%{margin-left: -200%;}
+			12.5%{margin-left: -200%;}
+
+			15%{margin-left: -300%;}
+			17.5%{margin-left: -300%;}
+
+			20%{ margin-left: -400%; }
+			22.5%{ margin-left: -400%; }
+
+			25%{margin-left: -500%;}
+			27.5%{margin-left: -500%;}
+
+			30%{margin-left: -600%;}
+			32.5%{margin-left: -600%;}
+
+			35%{margin-left: -700%;}
+			37.5%{margin-left: -700%;}
+
+			40%{ margin-left: -800%; }
+			42.5%{ margin-left: -800%; }
+
+			45%{margin-left: -900%;}
+			47.5%{margin-left: -900%;}
+
+			50%{ margin-left: -1000%; }
+			52.5%{ margin-left: -1000%; }
+
+			55%{margin-left: -1100%;}
+			57.5%{margin-left: -1100%;}
+
+			60%{margin-left: -1200%;}
+			62.5%{margin-left: -1200%;}
+
+			65%{margin-left: -1300%;}
+			67.5%{margin-left: -1300%;}
+
+			70%{ margin-left: -1400%; }
+			72.5%{ margin-left: -1400%; }
+
+			75%{margin-left: -1500%;}
+			77.5%{margin-left: -1500%;}
+
+			80%{margin-left: -1600%;}
+			82.5%{margin-left: -1600%;}
+
+			85%{margin-left: -1700%;}
+			87.5%{margin-left: -1700%;}
+
+			90%{ margin-left: -1800%; }
+			92.5%{ margin-left: -1800%; }
+
+			95%{margin-left: -1900%;}
+			100%{margin-left: -1900%;}
+
+			
+
+
+			
+			
 		}
 
 		.main{
@@ -110,72 +194,9 @@
 
 		.buton1:hover{
 			background: #006699;
-			color: #fff;
+			color: #fpng
 			transition: background 1s, color 1s;
 		}
-
-		#slide{
-			width: 400px;
-			height: 300px;
-			border: 0px solid #fff;
-			margin: -950px 20px 20px 420px;
-			position: absolute;
-			background-color: #53A7B4;
-		}
-
-		.servicio{
-			width: 1250px;
-			height: 150px;
-			border: 0px solid #fff;
-			margin: -450px 20px 20px 40px;
-			position: absolute;
-			background-color: #53A7B4;
-			float: right;
-		}
-
-		.uno{
-			height: 120px;
-			width: 370px;
-			border: 0px solid #fff;
-			margin: 10px;
-			float: right;
-		}
-
-
-		.dos{}
-
-		.grande{
-			width: 300px;
-			border: 0px solid #fff;
-		}
-
-		.enviar{
-			width: 110px;
-			height: 50px;
-			border: 1px solid #fff;
-			float: center;
-			margin: -5000px 20px 20px 600px; 	
-		}
-
-
-		footer{
-			border: 1px solid #5D6163;
-			width: 100%;
-			height: auto;
-			float: center;
-			text-align: center;
-			background-color: #5D6163;
-			color: #fff;
-			margin: -15px 0px 0px 0px;
-		}
-
-		#servicio{
-			width: 100%;
-			height: 2000px;
-			margin: 100px 0px 0px 0px;
-
-		}
-
 	</style>
 	<body>
 		<div id="principal">
@@ -222,50 +243,48 @@
 			<li><a href="Nosotros.html"><img src="img/png/clipboard.png" width="21px" height="21px">Nosotros</a></li>
 		</ul>
 	</div>
-	<section id="servicio">
-		<img src="img/servicio.jpg" width="100%" height="1000px">
-		<section id="slide">
-			<form class="tres" action="datos.php" method="get">
-						
-						<ul><label>Ingresa tu Email:</label><li><input class="grande" type="text" placeholder="*Escribe tu Email"></li><br></ul>
-
-						<ul><label>Ingresa tu Nombre:</label><li><input class="grande" type="text" placeholder="*Escribe tu Nombre"></li><br></ul>
-
-						<ul><label>Ingresa tus Apellidos:</label><li ><input class="grande" type="text" placeholder="*Escribe tu Apellidos"><br></li></ul>
-
-						<ul><label>Ingresa tu Numero Telefonico:</label><li><input class="grande" type="text" placeholder="*Escribe tu Numero"><br></li></ul>
-						
-			</form>			
-
-			</section>
-
-
-				<section class="servicio">
-				<section class="uno">
-					<input type="checkbox"<p>Pintura</p>
-					<input type="checkbox"<p>Cambio de aceite</p>
-					<input type="checkbox"<p>Lavado</p>
-				</section>
-				<section class="uno dos">
-					<input type="checkbox"<p>Reparacion General</p>
-					<input type="checkbox"<p>Relleno de Niv.</p>
-					<input type="checkbox"<p>Inspeccion de Puntos de Seguridad y
-					funcionalidad</p>
-				</section>
-				<section class="uno">
-					<input type="checkbox"<p>Servicio de Mantenimiento</p>
-					<input type="checkbox"<p>Liquido limpiaparabrisas</p>
-					<input type="checkbox"<p>Diagnostico por computadora</p>
-				</section></section>
-			
-			<input class="enviar" type="submit">
-
-		</serction>
+			</header>
+		<div class="main">
+			<div class="slides">
+				<ul>
+					<li><img src="img/Toyota/T-imagen1.jpg" alt=""></li>
+					<li><img src="img/Toyota/T-imagen2.jpg" alt=""></li>
+					<li><img src="img/Toyota/T-imagen3.jpg" alt=""></li>
+					<li><img src="img/Toyota/T-imagen4.jpg" alt=""></li>
+					<li><img src="img/Toyota/T-imagen5.jpg" alt=""></li>
+					<li><img src="img/Chevrolet/C-imagen1.jpg" alt=""></li>
+					<li><img src="img/Chevrolet/C-imagen2.jpg" alt=""></li>
+					<li><img src="img/Chevrolet/C-imagen3.jpg" alt=""></li>
+					<li><img src="img/Chevrolet/C-imagen4.jpg" alt=""></li>
+					<li><img src="img/Chevrolet/C-imagen5.jpg" alt=""></li>
+					<li><img src="img/Hyundai/H-imagen1.jpg" alt=""></li>
+					<li><img src="img/Hyundai/H-imagen2.jpg" alt=""></li>
+					<li><img src="img/Hyundai/H-imagen3.jpg" alt=""></li>
+					<li><img src="img/Hyundai/H-imagen4.jpg" alt=""></li>
+					<li><img src="img/Hyundai/H-imagen5.jpg" alt=""></li>
+					<li><img src="img/Nissan/nimagen1.jpg" alt=""></li>
+					<li><img src="img/Nissan/nimagen2.jpg" alt=""></li>
+					<li><img src="img/Nissan/nimagen3.jpg" alt=""></li>
+					<li><img src="img/Nissan/nimagen4.jpg" alt=""></li>
+					<li><img src="img/Nissan/nimagen5.jpg" alt=""></li>
+				</ul>
+			</div>
+		</div>
 			<footer>
 				<p>
-					(c) Todos los reservados -AN 2019 <br> Disenado por <a href="alonsin2001_04@hotmail.com">mi</a>
+					(c) Todos los derechos reservados -AN 2019   <br> Diseñado por <a href="alonsin2001_04@hotmail.com">mi</a>
 				</p>
 			</footer>
-		</div>
+		</div>	
+
+		<script src="htrp://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.slides.js"></script>
+		<script>
+			$(function(){
+			$(".slides").slides.js({
+			});
+		});
+
+		</script>
 	</body>
 </html>

@@ -1,0 +1,303 @@
+<html lang="es" class="translated-ltr"><head>
+    <meta charset="UTF-8">
+    <title>Menu2.0</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <style>
+    body {
+  background-image: url(img/portada1.jpg);
+        background-size: cover;
+   font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+        height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 40px;
+  position: relative;
+  top: 40px;
+  margin: 0 auto;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #000;
+ 
+ 
+}
+.navigation-wrapper {
+  position: relative;
+}
+.navigation-button {
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 1;
+  top: 40px;
+  right: 100px;
+  background: transparent;
+  cursor: pointer;
+}
+.navigation-button .fa {
+  border: 2px solid #000;
+  border-radius: 3px;
+  padding: 10px;
+    color: #000;
+}
+ 
+
+.navigation-menu ul li {
+  list-style: none;
+  font-family: impact;
+  font-weight: 300;
+  color: hsl(0,0%,70%);
+}
+
+.navigation-menu {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  background: #5D6163;
+  height: 100%;
+  transform: skewX(0deg) translate(100%,0);
+  transform-origin: top right;
+  transition: all .2s ease-in;
+  z-index: -1;
+}
+.navigation-menu ul {
+  transform: skewX(-8deg);
+  transform-origin: top left;
+  position: fixed;
+  right: 120px;
+  top: 120px;
+  width: 400px;
+  text-align: right;
+
+}
+.navigation-menu ul li {
+  position: relative;
+    z-index: 999;
+  font-size: 32px;
+  color: hsl(0,0%,10%);
+  line-height: 64px;
+  
+}
+.navigation-menu ul li  a {
+  border: none;
+  color: hsl(0,0%,10%);
+  text-decoration: none;
+ 
+}
+.navigation-menu.active {
+  transform: skewX(8deg) translate(0,0);
+    
+}
+
+.navigation-menu li {
+  opacity: 0;
+  transform: translate(0, 10px);
+  transition: all .0s ease-in .3s;
+  
+}
+.navigation-menu.active li {
+  opacity: 1;
+  transform: translate(0,0);
+  transition: all .2s ease-in 0s;
+}
+.navigation-menu.active li:nth-child(1) {
+  transition-delay: .3s;
+}
+.navigation-menu.active li:nth-child(2) {
+  transition-delay: .4s;
+}
+.navigation-menu.active li:nth-child(3) {
+  transition-delay: .5s;
+}
+.navigation-menu.active li:nth-child(4) {
+  transition-delay: .6s;
+}
+.navigation-menu.active li:nth-child(5) {
+  transition-delay: .7s;
+}
+.navigation-menu.active li:nth-child(6) {
+  transition-delay: .8s;
+}
+        .hero h1{
+             
+            margin-top: 178px;
+            text-transform: uppercase;
+            font-family: impact;
+            font-size: 26px;
+            letter-spacing: 4px;
+            color: white;
+            
+             
+        } 
+        
+        span{
+            font-size: 65px;
+            letter-spacing: 2px;
+            font-family: impact;
+        }
+        
+        .button {
+            
+             
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: normal;
+            font-size: 12px;
+            margin-top: 40px;
+            
+             
+        }
+        .btn1:hover{
+            text-decoration: none;
+            color: white;
+        }
+        .btn2:hover{
+            text-decoration: none;
+            color: black;
+        }
+        
+        
+        
+        .btn1{
+            padding: 12px 25px;
+            background: #f20c4a;
+            text-decoration: none;
+            color: white;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+             
+        }
+        .btn2{
+            padding: 12px 25px;
+            background: #f4f6f8;
+            text-decoration: none;
+            color: #000;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+             
+        }
+
+        img{
+          width: 100%;
+          height: 1000px;
+
+        }
+
+
+        /*Menu*/
+  ul, ol{
+    list-style: none;
+  }
+
+  .nav li a{
+    background-color: #5D6163;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 5px;
+    display: block; 
+    float: center auto;
+  }
+
+  .nav li a:hover{
+    background-color:red;
+  }
+
+  .nav > li{
+    float: ;
+  }
+
+  .nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px; 
+  }
+
+  .nav li:hover > ul{
+    display: block;
+  }
+
+  .nav li ul li{
+    position: relative;
+  }
+
+  .nav li ul li ul{
+    right: -140px;
+    top: 0px;
+  }
+/**/
+    </style>
+
+
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"></head>
+
+<body background="">
+    <div class="container">
+  <div id="logo"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></div>
+  
+  
+  
+  <div class="navigation-wrapper">
+    <div class="navigation-button">
+      <i class="fa fa-bars"></i>
+    </div>
+    <div class="navigation-menu">
+        <ul class="nav">
+          <li><a href="Menu.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inicio</font></font></a></li>
+          <li><a href="AutosUsados.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AutosSeminuevos</font></font></a></li>
+          <li><a href="Cotizacion.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cotizacion</font></font></a></li>
+          <li><a href="promociones.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Promociones</font></font></a></li>
+          <li><a href="Financiamiento.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Financiamiento</font></font></a></li>
+          <li><a href="Servicios.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Servicio</font></font></a></li>
+          <li><a href="Contactos.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactos</font></font></a></li>
+          <li><a href="Nosotros.html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nosotros</font></font></a></li>
+      </ul>
+    </div>
+  </div>
+  <section class="hero">
+      <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Agencia </font></font><br> <span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AutoNautica</font></font></span></h1>
+      <div class="button">
+          <a href="Menu.html" class="btn1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Empezar </font></font></a>
+          <a href="Promociones.html" class="btn2"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Obtener Destacado</font></font></a>
+      </div>
+  </section>
+  
+</div>
+<script>
+    var navButton = document.querySelector('.navigation-button');
+var navMenu = document.querySelector('.navigation-menu');
+var win = window;
+
+function openMenu(event) {
+  
+  navButton.classList.toggle('active');
+  navMenu.classList.toggle('active');
+
+  event.preventDefault();
+  event.stopImmediatePropagation();
+}
+  
+function closeMenu(event) {
+  if (navButton.classList.contains('active')) {
+    navButton.classList.remove('active');
+    navMenu.classList.remove('active');
+  }
+}
+  navButton.addEventListener('click', openMenu, false);
+
+win.addEventListener('click',closeMenu, false);
+    
+</script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google Translate"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Original text</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Contribute a better translation</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
